@@ -335,7 +335,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
-| Level / Map             |            |            | [Should be in a folder called Maps.](#2.4) |
+| Level / Map             | MAP_       |            | [Should be in a folder called Maps.](#2.4) |
 | Level (Persistent)      |            | _P         |                                  |
 | Level (Audio)           |            | _Audio     |                                  |
 | Level (Lighting)        |            | _Lighting  |                                  |
@@ -379,11 +379,11 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | AI Controller           | AIC_       |            |                                  |
 | Behavior Tree           | BT_        |            |                                  |
 | Blackboard              | BB_        |            |                                  |
-| Decorator               | BTDecorator_ |          |                                  |
-| Service                 | BTService_ |            |                                  |
-| Task                    | BTTask_    |            |                                  |
+| Decorator               | BTD_       |            |                                  |
+| Service                 | BTS_       |            |                                  |
+| Task                    | BTT_       |            |                                  |
 | Environment Query       | EQS_       |            |                                  |
-| EnvQueryContext         | EQS_       | Context    |                                  |
+| EnvQueryContext         | EQS_       | _Context   |                                  |
 
 <a name="anc-bp"></a>
 <a name="1.2.4"></a>
@@ -438,7 +438,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Media Texture           | MT_        |            |                                  |
 | Render Target           | RT_        |            |                                  |
 | Cube Render Target      | RTC_       |            |                                  |
-| Texture Light Profile   | TLP        |            |                                  |
+| Texture Light Profile   | TLP_       |            |                                  |
 
 <a name="anc-textures-packing"></a>
 <a name="1.2.6.1"></a>
